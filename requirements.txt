@@ -1,0 +1,23 @@
+
+We would like you to build a small React app 
+    - using TypeScript.
+
+To get started quickly, you can fx use the following https://create-react-app.dev/docs/adding-typescript/
+
+I have attached a JSON file with 50 test persons that you can use a data foundation.
+    - We would like you to list them in a table 
+    - that can be sorted by pressing the header of the column. 
+
+    - There must also be a search field 
+    so that the results can be reduced quickly. 
+    It is expected that 
+    - the search happens automatically with a small delay so that search does not happen on every key press.
+
+See example in folder.
+
+Notice that the columns must be based on the data in the JSON file.
+    File: generated.JSON
+
+The primary purpose of the test is to demonstrate that you can 
+    - implement the interactivity in a well structured, thought through way following best practice. 
+    - Its also expected that CSS and HTML follows good coding practices.
