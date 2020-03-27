@@ -8,7 +8,6 @@ interface TableListProps {
 
 export const TableList: React.FC<TableListProps> = ({ users }) => {
     return (
-        <div className="container-fluid">
          <table className="table table-hover">
             <thead className="thead-dark">
                 <tr>
@@ -29,6 +28,5 @@ export const TableList: React.FC<TableListProps> = ({ users }) => {
                 })}
             </tbody>
          </table>
-        </div>
     );
 };

@@ -15,7 +15,7 @@ export const TableListItem: React.FC<TableListItemProps> = ({user}) => {
             <td>{user.company}</td>
             <td>{user.email}</td>
             <td>{user.isActive.toString().toUpperCase()}</td>
-            <td><img src={user.picture} alt="User_Image" width="32" height="32"></img></td>
+            <td><img src={user.picture} alt="User_Image"></img></td>
         </tr>
     );
 }
